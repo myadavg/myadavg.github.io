@@ -1,0 +1,29 @@
+.projects {
+    padding: 8rem 2rem;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+}
+.projects__container {
+    max-width: var(--size-container);
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.projects__cards {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 5rem;
+    width: 100%;
+}
+
+.project__components {
+    padding-top: 5rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    gap: 1rem;
+}
